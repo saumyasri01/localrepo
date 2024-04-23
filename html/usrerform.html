@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Registration</title>
+</head>
+<body>
+
+<h1>User Registration</h1>
+
+<form action="#" method="post">
+    <div>
+        <label for="username">User Name:</label>
+        <input type="text" id="username" name="username" required>
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+    </div>
+    <div>
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required>
+    </div>
+    <div>
+        <p>How did you hear about us?</p>
+        <input type="radio" id="radio1" name="how_heard" value="friend">
+        <label for="radio1">Friend</label><br>
+        <input type="radio" id="radio2" name="how_heard" value="social_media">
+        <label for="radio2">Social Media</label><br>
+        <input type="radio" id="radio3" name="how_heard" value="internet_search">
+        <label for="radio3">Internet Search</label><br>
+        <input type="radio" id="radio4" name="how_heard" value="other">
+        <label for="radio4">Other</label>
+    </div>
+    <div>
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to the terms and conditions</label>
+    </div>
+    <div>
+        <button type="submit">Register</button>
+        <button type="button" onclick="window.location.href='cancel.html';">Cancel</button>
+    </div>
+</form>
+
+</body>
+</html>
