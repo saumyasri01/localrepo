@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Vacation Destinations</title>
+    <style>
+        /* CSS for the border */
+        .bordered {
+            border: 2px solid black;
+            padding: 10px;
+        }
+        #container_f {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            background-color: blueviolet;
+        }
+        #container_f img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Favorite Vacation Destinations</h1>
+    <div id="container_f">
+        <div class="destination">
+            <img src="greece.jpeg" alt="Greece, Santorini" class="bordered">
+            <p><strong>Destination 1: Santorini, Greece</strong><br>An island in the Aegean Sea, Santorini is known for its pristine whitewashed houses spread across jagged cliffs, astonishing blue water.</p>
+        </div>
+        <div class="destination">
+            <img src="kashmir.jpeg" alt="Kashmir, India" class="bordered">
+            <p><strong>Destination 2: Kashmir, India</strong><br>Famed for its serene landscapes and snow-capped mountains, Kashmir is often referred to as "Paradise on Earth." From the tranquil Dal Lake to the enchanting valleys of Gulmarg and Pahalgam, Kashmir mesmerizes visitors with its unparalleled beauty and tranquility.</p>
+        </div>
+        <div class="destination">
+            <img src="goa.jpeg" alt="Goa, India" class="bordered">
+            <p><strong>Destination 3: Goa, India</strong><br>Known for its vibrant culture, golden beaches, and lively nightlife, Goa is a favorite destination for beach lovers and party enthusiasts. Whether indulging in water sports, exploring colonial architecture, or sampling delicious seafood, Goa offers something for every traveler.</p>
+        </div>
+        <div class="destination">
+            <img src="maldives.jpeg" alt="Maldives" class="bordered">
+            <p><strong>Destination 4: Maldives</strong><br>Renowned for its pristine beaches, crystal-clear waters, and luxurious resorts, the Maldives is a tropical paradise like no other. Whether snorkeling amidst vibrant coral reefs, indulging in spa treatments overlooking the ocean, or simply lounging on the white sands, the Maldives promises an unforgettable escape from the ordinary.</p>
+        </div>
+    </div>
+</body>
+</html>
